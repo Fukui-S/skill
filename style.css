@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  width: 120px;
+  line-height: 70px;
+  padding: 0 30px;
+  color: #fafafa;
+  list-style: none;
+  font-size: 16px;
+}
+
+.mv {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  padding-top: 200px;
+  font-size: 64px;
+}
+
+.mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio {
+  background-color: #eceff1;
+}
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+hr {
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.heading-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.production-group {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+.production:nth-child(-n + 3) {
+  margin-top: 30px;
+}
+
+.bg-1 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.bg-2 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.bg-3 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0 0 0;
+}
+
+.bg-4 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.bg-5 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.bg-6 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0 0 0;
+}
+
+.feature {
+  background-size: cover;
+  background-position: center;
+}
+
+.strength-group {
+  display: flex;
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+  font-size: 60px;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile {
+  background-color: #eceff1;
+}
+
+.profile-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.my-face {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.description-title {
+  font-size: 20px;
+  margin-top: 0;
+}
+.description-title2 {
+  margin-top: 20px;
+}
+
+.description-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.description-text:nth-child(1) {
+  margin: 5px 0 20px 0;
+}
+
+.description-text:nth-child(2) {
+  margin-top: 5px;
+}
+
+.contact-group {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.description-text0 {
+  margin: 5px 0 20px 0;
+}
+
+.description-text00 {
+  margin-top: 5px;
+}
+
+.description-title0{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.description-title00{
+  margin: 20px 0 5px 0;
+}
+
+.link-text {
+  text-decoration: underline;
+}
+
+.right-contact-content {
+  width: 190px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+
+.description-title9{
+  margin-bottom: 5px;
+}
+
+.fa-facebook-f{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-twitter{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-instagram{
+  font-size: 50px;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 16px;
+  color: #FAFAFA;
+}
